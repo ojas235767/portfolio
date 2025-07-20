@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mystic Archives</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">🔮 Mystic Archives</div>
+    <ul class="nav-links">
+      <li><a href="#scrolls">Scrolls</a></li>
+      <li><a href="#astro">Astro</a></li>
+      <li><a href="#oracle">Oracle</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="overlay">
+      <h1>Welcome to the Mystic Archives</h1>
+      <p>Explore secrets lost in time and whispered by stars</p>
+      <a href="#scrolls" class="btn">Begin the Journey ✨</a>
+    </div>
+  </header>
+
+  <section id="scrolls" class="section">
+    <h2>📜 Ancient Scrolls</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Book of Shadows</h3>
+        <p>Rituals and charms passed down by moonlight.</p>
+      </div>
+      <div class="card">
+        <h3>Grimoire of Solomon</h3>
+        <p>Arcane wisdom encoded in sacred seals.</p>
+      </div>
+      <div class="card">
+        <h3>Tablets of Thoth</h3>
+        <p>Egyptian mysteries etched into eternity.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="astro" class="section">
+    <h2>🌌 Astro Charts</h2>
+    <p>Decode celestial alignments and their messages for you.</p>
+    <div class="astro-img">
+      <img src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809" alt="Astro Chart">
+    </div>
+  </section>
+
+  <section id="oracle" class="section">
+    <h2>🔮 Contact the Oracle</h2>
+    <form id="oracle-form">
+      <input type="text" id="seeker-name" placeholder="Your Name" required>
+      <input type="email" id="seeker-email" placeholder="Your Astral Email" required>
+      <textarea id="seeker-message" placeholder="What do you seek?" required></textarea>
+      <button type="submit">Summon Response</button>
+    </form>
+    <p id="oracle-response"></p>
+  </section>
+
+  <footer>
+    <p>Made under moonlight with stardust ✨ Mystic Archives &copy; 2025</p>
+  </footer>
+
+</body>
+</html>
